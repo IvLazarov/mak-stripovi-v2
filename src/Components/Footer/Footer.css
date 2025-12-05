@@ -1,0 +1,37 @@
+
+.footer{
+    background-color: #121420;
+    color: whitesmoke;
+    height: 70px;
+    cursor: default;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    gap: 10px;
+}
+
+.footer h2{
+    font-size: 37px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer a{
+    color: whitesmoke;
+    height: 70px;
+    width: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
+.footer a .icon{
+    height: 50px;
+    width: 50px;
+}

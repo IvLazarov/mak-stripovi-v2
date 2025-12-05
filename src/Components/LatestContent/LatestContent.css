@@ -1,0 +1,49 @@
+.latest-content{
+    height: 650px;
+    font-family: "Montserrat", sans-serif ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+.latest-content h1{
+    height: 90px;
+    width: 87%;
+    padding-top: 1%;
+}
+
+.latest-content a{
+    width: 370px;
+    height: 350px;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.latest-content a:hover{
+    color: red; 
+}
+
+.latest-content a img{
+    height: 250px;
+    width: 370px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.latest-content a img:hover{
+    transform: scale(1.1);
+}
+
+.latest-content a p{
+    width: fit-content;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.latest-content a h3{
+    width: 400px;
+}

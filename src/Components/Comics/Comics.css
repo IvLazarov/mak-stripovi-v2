@@ -1,0 +1,44 @@
+
+.comics-homepage{
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.comics-homepage h1{
+    width: 87%;
+    height: 90px;
+}
+
+.comics-homepage a{
+    height: 450px;
+    width: 370px;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.comics-homepage a:hover{
+    color: red;
+}
+
+.comics-homepage a h3, h4{
+    height: 40px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.comics-homepage a img{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.comics-homepage a img:hover{
+    transform: scale(1.1);
+}

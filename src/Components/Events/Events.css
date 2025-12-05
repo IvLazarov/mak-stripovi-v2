@@ -1,0 +1,17 @@
+
+.event-container{
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.event-container h1{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.event-container .description p{
+    font-size: 30px;
+    text-align: justify;
+}
+

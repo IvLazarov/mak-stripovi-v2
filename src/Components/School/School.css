@@ -1,0 +1,97 @@
+
+.school-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    scroll-behavior: smooth;
+}
+
+.school-container h1{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.description{ 
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.description p{
+    height: 400px;
+    width: 1000px;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description div{
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.description div a{
+    border: 2px solid #121420;
+    border-radius: 5px;
+    display: block;
+    height: 40px;
+    width: 200px;
+    color: #121420;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.description div a:hover{
+    background-color: #121420;
+    color: whitesmoke;
+}
+
+.photos{
+    height: 950px;
+    background-color: #121420;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mySwiper{
+    height: 930px;
+    width: 710px;
+}
+
+.photos img{
+    height: 900px;
+    width: 700px;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+}   
+
+
+.mySwiper2{
+    height: 830px;
+    width: 900px;
+}
+
+.mySwiper2 img{
+    width: 890px;
+    height: 700px;
+}

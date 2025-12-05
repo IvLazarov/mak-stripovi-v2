@@ -1,0 +1,11 @@
+
+.mySwiper3{
+    width: 100%;
+    height: 700px;
+    z-index: 1;
+}
+
+.mySwiper img{
+    height: 700px;
+    width: 100%;
+}
